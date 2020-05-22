@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="sidenav ">
+          <div class="login-main-text" style="margin-top: 50px;">
+             <h2>Blood Donation Information</h2><br>
+          </div>
+       </div>
+       <div class="main" style="margin-top: 120px;">
+          <div class="col-md-6 col-sm-12">
+             <div class="login-form">
+                <form action="paitreg" method="post">
+                   <div class="form-group">
+                      <label class="font">Name</label>
+                      <input type="text" class="form-control" placeholder="User Name" name="name" required>
+                   </div>
+                   <div class="form-group">
+                      <label class="font">Blood Group</label>
+                      <input type="text" class="form-control" placeholder="Blood Group" name="grp" required>
+                   </div>
+                   <div class="form-group">
+                      <label class="font">No of units</label>
+                      <input type="text" class="form-control" placeholder="No of units of Blood" name="nouni" required>
+                   </div>
+                   <div class="form-group">
+                      <label class="font">Name of the hospital</label>
+                      <input type="text" class="form-control" placeholder="Name of the hospital" name="hospital" required>
+                   </div>
+                   <div class="form-group">
+                      <label class="font">Diseases</label><br>
+                      <select class="custom-select"  required>
+                        <option value="" disabled selected>Choose option</option>
+                        <option value="Malaria" >Malaria</option>
+                        <option value="Babesiosis">Babesiosis</option>
+                        <option value="Leishmaniasis">Leishmaniasis</option>
+                        <option value="Lyme disease">Lyme disease</option>
+                        <option value="Tuberculosis" >Tuberculosis</option>
+                        <option value="Hepatitis">Hepatitis</option>
+                        <option value="Cerebrovascular disease">Cerebrovascular disease</option>
+                        <option value="Cardiovascular diseases">Cardiovascular diseases</option>
+                        <option value="Thrombocytopenia">Thrombocytopenia</option>
+                        <option value="Haemoglobinopathies">Haemoglobinopathies</option>
+                        <option value="Malignant diseases">Malignant diseases </option>
+                        <option value="Psychiatric disorders">Psychiatric disorders</option>
+                     </select>
+                   </div>
+                   <button type="submit" class="btn btn-outline-primary btn-lg">Register</button></a>
+                   
+                </form>
+             </div>
+          </div>
+       </div>
+
+      
+
+
+
+
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

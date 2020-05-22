@@ -1,0 +1,29 @@
+{
+  "name": "blooddonation",
+  "version": "1.0.0",
+  "description": "Where they give there details and paitent get the information",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmas3009/BloodDonation.git"
+  },
+  "author": "lmas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmas3009/BloodDonation/issues"
+  },
+  "homepage": "https://github.com/lmas3009/BloodDonation#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
