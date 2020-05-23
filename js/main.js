@@ -67,7 +67,7 @@ function donar(){
             Habit:habit
         })
    }
-   else if(mon-last[6]<6 || mon-last[6]<-6){
+   else if(mon-last[6]<6 || mon-last[6]<-6 || wt<52 ){
        var res = confirm("You not allowed to enter the data for more information click Ok or Cancel");
        if(res==true){
            window.location.href="http://www.google.com";
