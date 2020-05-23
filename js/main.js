@@ -1,6 +1,6 @@
 (function(){
     var firebaseConfig = {
-        apiKey: "AIzaSyDLp_SRYgI-pvkZkg6JwYm2vBklrPvY-pw",
+        apiKey: process.API_KEY,
         authDomain: "instagramapp-master-db078.firebaseapp.com",
         databaseURL: "https://instagramapp-master-db078.firebaseio.com",
         projectId: "instagramapp-master-db078",
