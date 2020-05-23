@@ -97,10 +97,10 @@ function admin(){
                 snap.forEach(function(childSnapshot1) {
                     firebase.database().ref("Donar").child(childSnapshot1.key).once("value").then(function(snap){
                         var habit = snap.child("Habit").val();
-                        var with = snap.child("Weight").val();
+                        var wih = snap.child("Weight").val();
                         let userRef = firebase.database().ref("Donar").child(childSnapshot1.key);
                        
-                        if(habit=="Drug" || habit=="Alcohol" || with < 52){
+                        if(habit=="Drug" || habit=="Alcohol" || wih < 52){
                             userRef.remove();
                             console.log("removed");
                             
